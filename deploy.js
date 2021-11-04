@@ -1,12 +1,11 @@
-import { publish } from 'gh-pages';
-import { join } from 'path';
-
-publish(join(process.cwd(), 'dist'), {
+var ghPages = require('gh-pages');
+var path = require('path');
+ghPages.publish(path.join(process.cwd(), 'dist'), {
   depth: 1,
-  logger(message) {
+  logger: function (message) {
     console.log(message);
-  },
-}, (err) => {
+  }
+}, function (err) {
   if (err) {
     throw err;
   }
