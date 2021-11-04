@@ -8,7 +8,7 @@ export default function Header(props) {
           <a>
             <span>Lazzzy Apps</span>
           </a>
-          <span>Embrace the lazzzy <span className="you">you.</span></span>
+          <span classNam="motto">Embrace the lazzzy <span className="you">you.</span></span>
         </h1>
       </div>
     </header>
