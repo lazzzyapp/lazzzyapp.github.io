@@ -28,7 +28,7 @@ class AboveFold extends React.PureComponent {
                 window.location.href = '/activity/home';
               }}
               >
-                Apply for Early Access
+                Be an
               </Button>
             </span>
           </QueueAnim>
