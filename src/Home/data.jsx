@@ -4,17 +4,17 @@ export const about = [
   {
     title: 'Limitless Extraction',
     content: 'Every article, a highlight away.',
-    src: 'static/limitless.png',
+    src: 'https://lazzzyapp.github.io/lazzzy-website/static/limitless.pngg',
   },
   {
     title: 'Methodical Records',
     content: 'Your notes, organized.',
-    src: 'static/methodical.png',
+    src: 'https://lazzzyapp.github.io/lazzzy-website/static/methodical.png',
   },
   {
     title: 'Maximize Productivity',
     content: 'Be lazzzy now, be efficient later.',
-    src: 'static/maximize.png',
+    src: 'https://lazzzyapp.github.io/lazzzy-website/static/maximize.png',
   },
 ];
 
