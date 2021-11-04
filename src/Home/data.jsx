@@ -4,17 +4,17 @@ export const about = [
   {
     title: 'Limitless Extraction',
     content: 'Every article, a highlight away.',
-    src: '../images/limitless.png',
+    src: 'images/limitless.png',
   },
   {
     title: 'Methodical Records',
     content: 'Your notes, organized.',
-    src: '../images/methodical.png',
+    src: 'images/methodical.png',
   },
   {
     title: 'Maximize Productivity',
     content: 'Be lazzzy now, be efficient later.',
-    src: '../images/maximize.png',
+    src: 'images/maximize.png',
   },
 ];
 
