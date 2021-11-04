@@ -47,7 +47,7 @@
     "lint"
   ],
   "scripts": {
-    "build": "rm -rf dist && atool-build && cp index.html dist && cp -r src/images dist && cp -r src/style dist",
+    "build": "rm -rf dist && atool-build && cp index.html dist && cp -r src/static dist",
     "lint": "eslint --ext .js,.jsx src/",
     "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
     "start": "dora --plugins webpack",

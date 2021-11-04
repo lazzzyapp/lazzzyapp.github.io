@@ -5,7 +5,7 @@ function antCloudFooter() {
   const children = footer.map((item, i) => (<div key={i}><a href={item.src}>{item.text}</a></div>));
   return (<div>
     <div className="logo" key="logo">
-      <img src="images/logo.png" width="72" height="82" />
+      <img src="static/logo.png" width="72" height="82" />
     </div>
     <div key="nav" className="home-footer-nav-wrapper">
       {children}

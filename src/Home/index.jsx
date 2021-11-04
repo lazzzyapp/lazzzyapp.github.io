@@ -7,7 +7,7 @@ import About from './About';
 import Team from './Team';
 import Sponsors from './Sponsors';
 import Footer from './Footer';
-import '../style';
+import '../static/style';
 
 class Home extends React.PureComponent {
   render() {
