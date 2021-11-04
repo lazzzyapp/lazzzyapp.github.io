@@ -4,7 +4,7 @@ export const about = [
   {
     title: 'Limitless Extraction',
     content: 'Every article, a highlight away.',
-    src: 'https://lazzzyapp.github.io/lazzzy-website/static/limitless.pngg',
+    src: 'https://lazzzyapp.github.io/lazzzy-website/static/limitless.png',
   },
   {
     title: 'Methodical Records',
