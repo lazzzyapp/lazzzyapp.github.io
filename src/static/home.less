@@ -1,11 +1,10 @@
 @import './default.less';
 
 .home-page {
-  .fd-content {
-    min-width: 1216px;
+    max-width: 1216px;
+    width: 100%;
     background: #FFF;
     font-family: PingFangSC, Helvetica Neue, Helvetica, PingFang SC-Light, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
-  }
   h2,
   h3,
   h4,
@@ -19,7 +18,8 @@
     overflow: hidden;
     .home-layout {
       margin: 0 auto;
-      width: 1152px;
+      max-width: 1152px;
+      width: auto;
       padding: 0 24px;
       overflow: hidden;
       height: 100%;
@@ -182,11 +182,11 @@
       }
     }
   }
-  .home-serve-wrapper {
-    height: 788px;
-    text-align: center;
+  .home-serve-wrapper {    text-align: center;
     .col {
-      font-size: 16px;
+    height: 788px;
+
+      font-size: 10px;
       .content-wrapper {
         padding: 24px 16px;
         height: 440px;
@@ -195,6 +195,7 @@
           transition: opacity .45s;
         }
         &:hover {
+
           .icon-hover {
             opacity: 1;
           }
