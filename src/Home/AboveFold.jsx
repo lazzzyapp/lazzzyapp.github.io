@@ -20,7 +20,8 @@ class AboveFold extends React.PureComponent {
             <h1 key="h2">
               Lazzzy Productivity Suite
             </h1>
-            <p key="p">Simple tools to maximize your web browsing efficiency with minimal effort.</p>
+            <p key="p">Simple online tools to maximize your web browsing efficiency with minimal effort. Install, copy, click. That's all it takes to save content where you want it, how you want it.</p>
+            <p key="p">Yeah, it's that easy.</p>
             <span key="button">
               <Button
                 type="primary"
@@ -28,7 +29,7 @@ class AboveFold extends React.PureComponent {
                 window.location.href = '#';
               }}
               >
-                Be Alpha, Test Beta
+                Be Lazzzy, Test Alpha
               </Button>
             </span>
           </QueueAnim>
