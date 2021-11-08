@@ -22,17 +22,19 @@ export default function Team() {
   return (
     <div className="home-layout-wrapper home-serve-wrapper">
       <OverPack className="home-layout" playScale={0.4}>
-        <QueueAnim className="home-serve" type="bottom" key="home-func" ease="easeOutQuart" leaveReverse>
+        <QueueAnim
+          className="home-serve"
+          type="bottom"
+          key="team"
+          ease="easeOutQuart"
+          style={{ marginRight: '0', marginLeft: '0' }}
+          leaveReverse
+          componentProps={{ gutter: 90 }}
+          component={Row}
+        >
           <h2 key="h2">Meet The Team</h2>
           <i key="i" className="line" />
-          <QueueAnim
-            key="content"
-            component={Row}
-            type="bottom"
-            componentProps={{ gutter: 96 }}
-          >
-            {children}
-          </QueueAnim>
+          {children}
         </QueueAnim>
       </OverPack>
     </div>);
