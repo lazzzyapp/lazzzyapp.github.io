@@ -1,7 +1,6 @@
 @import './default.less';
 
 .home-page {
-    max-width: 1216px;
     width: 100%;
     background: #FFF;
     font-family: PingFangSC, Helvetica Neue, Helvetica, PingFang SC-Light, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
@@ -13,14 +12,13 @@
   }
   .home-layout-wrapper {
     width: 100%;
-    height: 720px;
+    height: auto;
     text-align: center;
     overflow: hidden;
     .home-layout {
-      margin: 0 auto;
-      max-width: 1152px;
+      margin: 0;
       width: auto;
-      padding: 0 24px;
+      padding: 2.5%;
       overflow: hidden;
       height: 100%;
       >div {
@@ -125,7 +123,7 @@
       position: relative;
       background-position: bottom center;
       background-repeat: no-repeat;
-      background-size: 90% auto;
+      background-size: 90%;
       margin-bottom: 62px;
     }
     .col {
@@ -184,12 +182,14 @@
   }
   .home-serve-wrapper {    text-align: center;
     .col {
-    height: 788px;
-
-      font-size: 10px;
+      height: auto;
+      font-size: 1em;
+      padding-left: 5%;
+      padding-right: 5%;
       .content-wrapper {
-        padding: 24px 16px;
-        height: 440px;
+        padding: 5%;
+        height: auto;
+        max-height: 500px;
         .icon-hover {
           opacity: 0;
           transition: opacity .45s;
@@ -200,23 +200,28 @@
             opacity: 1;
           }
           p {
-            color: fade(#000000, 65);
+            color: fade(#000, 65);
           }
         }
       }
       .image {
-        width: 32px;
-        height: 32px;
-        margin: 8px auto 12px;
+        width: 64px;
+        height: 64px;
+        margin:auto;
+        border-radius: 100%;
+        background-size: 100%;
       }
       h3 {
-        margin-bottom: 24px;
+        margin-bottom: 2px;
+        font-size: 16px;
       }
       p {
-        margin-bottom: 12px;
+        padding-bottom: 5%;
         color: @contentColor;
         transition: color .3s;
         font-weight: 400;
+        border-bottom: 1px dotted #d8d8d8;
+
       }
       .exp {
         position: absolute;
