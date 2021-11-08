@@ -167,7 +167,7 @@ export const team = [
     title: 'Brandon JP Scott',
     content: [
       <p key="1">CTO</p>,
-      <p key="2">bio</p>,
+      <p key="2">Brandon JP Scott is a University of Michigan student studying Computer Science Engineering and Business Administration. Born in Michigan, USA and raised as an Army brat, Brandon has lived in more than ten different states. Prior to returning to Michigan to continue his education, Brandon worked in Aguada, PR as the Senior Vice President of Technology and led the development of the video platform at Island Med and has been an entrepreneur for almost ten years. When asked how he “embraces the lazy brandon” he said, “I write more code to automated my daily workflow than I do actual projects, just so I can avoid extra key strokes.”</p>,
     ],
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
       <defs>
