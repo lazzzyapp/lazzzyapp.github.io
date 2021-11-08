@@ -46,7 +46,7 @@ export const team = [
     title: 'Zeid Habbab',
     content: [
       <p key="1">CEO</p>,
-      <p key="2">bio</p>,
+      <p key="2">Zeid is the Executive Director of Lazzzy and a University of Michigan student studying BCN and Entrepreneurship. He was born in Georgia, USA but grew up between Syria and Michigan, USA. Incepting the idea out of his own desire for better highlighting and organization, Zeid invented Lazzzy as a solution to the system overload of online academic resources. When asked how he “embraces the lazzzy Zeid” he said, “when I get a food coma in the middle of a meal, I take a nap to finish my food later…” </p>,
     ],
     person: (<svg width="32px" height="32px" viewBox="0 0 32 32">
       <defs>
@@ -86,7 +86,8 @@ export const team = [
     title: 'Ari Brown',
     content: [
       <p key="1">COO</p>,
-      <p key="2">Ari Brown is Operations Director at Lazzzy and a University of Michigan student studying Economics and Entrepreneurship. He was born and raised in New Jersey, USA so close to NYC you’re able to see the city skyline from his house. Ari is a sports buff and proudly admits to the misery that comes with being a NY Mets fan. He is an ultimate frisbee aficionado, graduated from the school where the sport was invented, and currently plays for the UMich club team. His favorite hobby is cooking and currently lives with four others who cannot, so he gets to experiment with new recipes and they can’t say no. Food is what led Ari to his last position at an Italian food manufacturer/distributor  [insert name], where he was able to work/learn directly from their COO in logistics and inventory management. When asked how he “embraces the lazzzy Ari” he replied, “[insert quote]”.</p>,
+      <p key="2">Ari Brown is Operations Director at Lazzzy and a University of Michigan student studying Economics and Entrepreneurship. He was born and raised in New Jersey, USA, so close to NYC you’re able to see the city skyline from his house. Ari is a sports buff and proudly admits to the misery that comes with being a New York Mets fan. He is an ultimate frisbee aficionado, graduated from the high school where the sport was invented, and currently plays for the UMich club team. His favorite hobby is cooking and currently lives with four others who cannot, so he gets to experiment with new recipes and they are unable to say no. Food is what led Ari to his last position at an Italian food manufacturer/distributor, Mama Mancini’s, where he was able to work and learn directly from their COO in logistics and inventory management. When asked how he “embraces the lazzzy Ari” he replied, “I embrace the lazy me by knowing how much to do in as little time as possible. Lazzzy will help me with my laziness by allowing me to automatically copy text into a document in minimal effort and time.”
+</p>,
     ],
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
       <defs>
@@ -126,7 +127,7 @@ export const team = [
     title: 'Julius Welschof',
     content: [
       <p key="1">CMO</p>,
-      <p key="2">Julius Welschof is the Marketing Director at Lazzzy and a University of Michigan student-athlete currently playing defensive line for the football team. He is from  [insert city/state], Germany where he completed his mechanical engineering apprenticeship  in 2015 and worked as a Machine Engineer at [insert company] until 2018 before coming the United States. His favorite hobby outside of smashing through offensive lines and sacking quarterbacks is [insert hobby]. When asked how he “embraces the lazzzy Julius” he said, “[insert quote]”.</p>,
+      <p key="2">Julius Welschof is the Marketing Director at Lazzzy and a University of Michigan student-athlete currently playing defensive line for the football team. He is from Bavaria, Germany where he completed his mechanical engineering apprenticeship for Kathrein from 2013 to  2016 and worked as a Machine Engineer at Krones until 2018 before coming to the United States in July 2018. His favorite hobby outside of smashing through offensive lines and sacking quarterbacks is golfing, video games and skiing. When asked how he “embraces the lazzzy Julius” he said, “instead of calling it lazy I rather work smarter not harder. With lazzzy I am going to save a lot of time I can use on focusing on my hobbies”. </p>,
     ],
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
       <defs>
