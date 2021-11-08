@@ -6,7 +6,7 @@ import { team } from './data';
 
 export default function Team() {
   const children = team.map((d, i) => (
-    <Col span={8} className="col" key={i.toString()}>
+    <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 6 }} className="col" key={i.toString()} style={{ paddingLeft: '1%', paddingRight: '1%' }}>
       <QueueAnim
         type="bottom"
         className="content-wrapper home-hover"
