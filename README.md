@@ -10,7 +10,7 @@ Open your preferred web browser and visit [lazzzy.app](https://lazzzy.app) to ch
 
 ### Nightly Version
 
-We build and deploy the website's code nightly. You can check out the latest nightly build by visiting [lazzzyapp.github.io](https://lazzzyapps.github.io/lazzzy-website/)
+We build and deploy the website's code nightly. You can check out the latest nightly build by visiting [lazzzyapp.github.io](https://lazzzyapp.github.io/lazzzy-website/)
 
 ## Build It Locally
 

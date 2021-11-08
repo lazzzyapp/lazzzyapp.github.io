@@ -18,17 +18,17 @@ class AboveFold extends React.PureComponent {
         <div className="home-layout">
           <QueueAnim className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
             <h1 key="h2">
-              Lazzzy Apps
+              Lazzzy Productivity Suite
             </h1>
-            <p key="p">Productivity suite to maximize your efficiency with minimal effort.</p>
+            <p key="p">Simple tools to maximize your web browsing efficiency with minimal effort.</p>
             <span key="button">
               <Button
                 type="primary"
                 onClick={() => {
-                window.location.href = '/activity/home';
+                window.location.href = '#';
               }}
               >
-                Be an
+                Be Alpha, Test Beta
               </Button>
             </span>
           </QueueAnim>

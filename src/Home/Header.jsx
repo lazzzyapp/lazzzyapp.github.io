@@ -6,7 +6,7 @@ export default function Header(props) {
       <div className="header-content">
         <h1>
           <a>
-            <span>Lazzzy Apps</span>
+            <span>Lazzzy App</span>
           </a>
           <span className="motto">Embrace the lazzzy <span className="you">you.</span></span>
         </h1>

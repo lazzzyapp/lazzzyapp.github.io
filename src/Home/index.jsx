@@ -19,7 +19,7 @@ class Home extends React.PureComponent {
         <Team key="team" />
         <Sponsors key="sponsors" />
         <Footer key="footer" />
-        <DocumentTitle title="Lazzzy Apps - Embrace the Lazzzy You" />
+        <DocumentTitle title="Lazzzy App - Embrace the Lazzzy You" />
       </div>
     );
   }
