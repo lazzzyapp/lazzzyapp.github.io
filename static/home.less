@@ -63,8 +63,8 @@
     width: 40px;
     height: 2px;
     display: block;
-    background: #FFBF00;
-    margin: 16px auto 72px;
+    background: #69BE28;
+    margin: 1% auto 2.5%;
   }
   .home-abovefold {
     padding-top: 64px;
@@ -91,7 +91,7 @@
     }
     .home-abovefold-content-wrapper,
     .home-abovefold-image-wrapper {
-      width: 50%;
+      float: left;
       display: inline-block;
       padding:5%;
     }
@@ -108,8 +108,8 @@
     }
     p {
       margin-bottom: 40px;
-      font-size: 20px;
-      line-height: 28px;
+      font-size: 1em;
+      line-height: 1em;
       color: @contentColor;
     }
     span {
@@ -123,19 +123,21 @@
       text-align: center;
     }
   }
-  .home-func-wrapper {
-    height: 720px;
+  .home-about-wrapper {
+    height: 100vh;
+    max-height: 100vh;
     text-align: center;
     .image {
-      height: 240px;
+      min-height: 240px;
+      height: 100%;
       position: relative;
       background-position: bottom center;
       background-repeat: no-repeat;
       background-size: 90%;
-      margin-bottom: 62px;
     }
     .col {
-      height: 400px;
+      height: auto;
+      max-height: 100vh;
     }
     p {
       font-size: 16px;
@@ -188,8 +190,10 @@
       }
     }
   }
-  .home-serve-wrapper {
+  .home-team-wrapper {
     text-align: center;
+    height: 100vh;
+    max-height: 100vh;
     .col {
       height: auto;
       font-size: 0.75em;
@@ -198,7 +202,6 @@
       .content-wrapper {
         padding: 5%;
         height: auto;
-        max-height: 100vh;
         .icon-hover {
           opacity: 0;
           transition: opacity .45s;
@@ -243,7 +246,7 @@
       }
     }
   }
-  .home-user-wrapper {
+  .home-sponsors-wrapper {
     height: 440px;
     h2 {
       margin-top: 64px;
