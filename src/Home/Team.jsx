@@ -20,20 +20,21 @@ export default function Team() {
     </Col>
   ));
   return (
-    <div className="home-layout-wrapper home-serve-wrapper">
+    <div className="home-layout-wrapper home-team-wrapper">
+
+      <h2 key="h2">Meet The Team</h2>
+      <i key="i" className="line" />
       <OverPack className="home-layout" playScale={0.4}>
         <QueueAnim
-          className="home-serve"
+          className="home-team"
           type="bottom"
-          key="team"
+          key="home-team"
           ease="easeOutQuart"
           style={{ marginRight: '0', marginLeft: '0' }}
           leaveReverse
-          componentProps={{ gutter: 90 }}
+          componentProps={{ gutter: 171 }}
           component={Row}
         >
-          <h2 key="h2">Meet The Team</h2>
-          <i key="i" className="line" />
           {children}
         </QueueAnim>
       </OverPack>

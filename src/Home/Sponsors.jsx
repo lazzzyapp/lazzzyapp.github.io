@@ -28,9 +28,9 @@ export default function Sponsors() {
       </QueueAnim>));
   }
   return (
-    <div className="home-layout-wrapper home-user-wrapper">
-      <OverPack className="home-layout" playScale={0.4}>
-        <QueueAnim className="home-user" type="bottom" key="home-func" ease="easeOutQuart" leaveReverse>
+    <div className="home-layout-wrapper home-sponsors-wrapper">
+      <OverPack className="home-layout" playScale={0.3}>
+        <QueueAnim className="home-sponsors" type="bottom" key="home-sponsors" ease="easeOutQuart" leaveReverse>
           <h2 key="h2">Sponsors</h2>
           <i key="i" className="line" />
           {children}

@@ -11,7 +11,7 @@ export default function About() {
       key={i}
       type="bottom"
       className="col"
-      componentProps={{ span: 8 }}
+      componentProps={{ xs: { span: 24 }, sm: { span: 8 } }}
     >
       <div key="image" className="image" style={{ backgroundImage: `url(${d.src})` }} />
       <h3 key="h3">{d.title}</h3>
@@ -19,11 +19,11 @@ export default function About() {
     </QueueAnim>
   ));
   return (
-    <div className="home-layout-wrapper home-func-wrapper" id="home-func" >
+    <div className="home-layout-wrapper home-about-wrapper" id="home-about" >
       <h2>To Be Lazzzy is to Be Efficient</h2>
       <i className="line" />
-      <OverPack className="home-layout" location="home-func" playScale={0.4}>
-        <QueueAnim className="home-func" type="bottom" key="home-func" ease="easeOutQuart" leaveReverse>
+      <OverPack className="home-layout" location="home-about" playScale={0.4}>
+        <QueueAnim className="home-about" type="bottom" key="home-about" ease="easeOutQuart" leaveReverse>
           <QueueAnim
             key="content"
             component={Row}

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
+import { Button, Col } from 'antd';
 import AboveFoldImage from './LazzzyAnimation';
 
 class AboveFold extends React.PureComponent {
@@ -16,7 +16,7 @@ class AboveFold extends React.PureComponent {
     return (
       <div className={`home-layout-wrapper ${className}`}>
         <div className="home-layout">
-          <QueueAnim className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
+          <QueueAnim component={Col} className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
             <h1 key="h2">
               Lazzzy Productivity Suite
             </h1>
