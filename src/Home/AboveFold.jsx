@@ -33,9 +33,10 @@ class AboveFold extends React.PureComponent {
               </Button>
             </span>
           </QueueAnim>
-          <div className={`${className}-image-wrapper`}>
+
+          <QueueAnim className={`${className}-image-wrapper`} component={Col}>
             <AboveFoldImage />
-          </div>
+          </QueueAnim>
         </div>
       </div>
     );
