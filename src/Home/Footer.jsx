@@ -5,8 +5,8 @@ import { footer } from './data';
 
 function antCloudFooter() {
   const children = footer.map((d, i) => (
-    <QueueAnim key={i}>
-      <a href={d.src}><div key="social" className="image" style={{ backgroundImage: `url(${d.logo})` }} /></a>;
+    <QueueAnim type="bottom" key={i} onClick={() => { window.location.href = `url(${d.src})`; }}>
+      <div key="social" className="image" style={{ backgroundImage: `url(${d.logo})` }} />
     </QueueAnim>
   ));
   return (<div>
