@@ -1,8 +1,14 @@
 import React from 'react';
+import QueueAnim from 'rc-queue-anim';
 import { footer } from './data';
 
+
 function antCloudFooter() {
-  const children = footer.map((item, i) => (<div key={i}><a href={item.src}>{item.text}</a></div>));
+  const children = footer.map((d, i) => (
+    <QueueAnim key={i}>
+      <a href={d.src}><div key="social" className="image" style={{ backgroundImage: `url(${d.logo})` }} /></a>));
+    </QueueAnim>
+  ));
   return (<div>
     <div className="logo" key="logo">
       <img src="https://lazzzyapp.github.io/lazzzy-website/static/logo.png" width="175" height="75" />
@@ -16,7 +22,7 @@ function antCloudFooter() {
 
 function Footer() {
   return (
-    <div className="home-layout-wrapper home-footer-wrapper">
+    <div className="home-footer-wrapper">
       <div className="home-layout">
         {antCloudFooter()}
         <p key="cop" className="copy">Copyright ©2021 Lazzzy, LLC |  A Michigan Limited Liability Company | All Rights Reserved</p>

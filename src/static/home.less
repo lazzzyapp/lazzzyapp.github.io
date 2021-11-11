@@ -2,6 +2,8 @@
 
 .home-page {
     width: 100%;
+    top: 64px;
+    position: relative;
     background: #FFF;
     font-family: PingFangSC, Helvetica Neue, Helvetica, PingFang SC-Light, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
   h2,
@@ -12,6 +14,7 @@
   }
   .home-layout-wrapper {
     width: 100%;
+    min-height: 100vh;
     height: auto;
     text-align: center;
     overflow: hidden;
@@ -67,37 +70,32 @@
     margin: 1% auto 2.5%;
   }
   .home-abovefold {
-    padding-top: 64px;
-    height:100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh !important;
+    height: 100vh !important;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.75)), url('https://lazzzyapp.github.io/lazzzy-website/static/header.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    max-height: 100vh;
-    min-height: 100vh;
     color: #fff;
     g, ellipse {
       transform-box: fill-box;
     }
-    .home-layout {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      padding-top: 0;
-      text-align: left;
-    }
     .home-abovefold-content-wrapper,
     .home-abovefold-image-wrapper {
-      float: left;
       display: inline-block;
-      padding:5%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      top: 0;
     }
     .home-abovefold-content-wrapper {
-      margin-bottom: 40px;
-      padding: 10%;
+      text-align: left;
     }
     h1 {
       font-size: 38px;
@@ -123,21 +121,24 @@
       text-align: center;
     }
   }
+
   .home-about-wrapper {
-    height: 100vh;
-    max-height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     text-align: center;
     .image {
       min-height: 240px;
       height: 100%;
       position: relative;
-      background-position: bottom center;
+      background-position: center;
       background-repeat: no-repeat;
-      background-size: 90%;
+      background-size: contain;
+    }
+    .ant-col-xs-24 {
+      padding: 10%;
     }
     .col {
       height: auto;
-      max-height: 100vh;
     }
     p {
       font-size: 16px;
@@ -192,8 +193,8 @@
   }
   .home-team-wrapper {
     text-align: center;
-    height: 100vh;
-    max-height: 100vh;
+    height: auto;
+    min-height: 100vh;
     .col {
       height: auto;
       font-size: 0.75em;
@@ -248,6 +249,7 @@
   }
   .home-sponsors-wrapper {
     height: 440px;
+    min-height: 0 !important;
     h2 {
       margin-top: 64px;
     }

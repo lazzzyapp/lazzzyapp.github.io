@@ -12,15 +12,18 @@ import '../static/style';
 class Home extends React.PureComponent {
   render() {
     return (
-      <div className="home-page">
+      <div>
         <Header key="header" />
-        <Banner key="abovefold" />
-        <About key="about" />
-        <Team key="team" />
-        <Sponsors key="sponsors" />
+        <div className="home-page">
+          <Banner key="abovefold" />
+          <About key="about" />
+          <Team key="team" />
+          <Sponsors key="sponsors" />
+          <DocumentTitle title="Lazzzy App - Embrace the Lazzzy You" />
+        </div>
         <Footer key="footer" />
-        <DocumentTitle title="Lazzzy App - Embrace the Lazzzy You" />
       </div>
+
     );
   }
 }

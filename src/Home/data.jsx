@@ -85,12 +85,13 @@ export const sponsors = [
 ];
 
 export const footer = [
-  { text: 'Slack', src: '#' },
-  { text: 'GitHub', src: '#' },
-  { text: 'Patreon', src: '#' },
-  { text: 'Facebook', src: '#' },
-  { text: 'Instagram', src: '#' },
-  { text: 'Twitter', src: '#' },
-  { text: 'LinkedIn', src: '#' },
-  { text: 'Email', src: 'mailto:be@lazzzy.app' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/whatsapp.svg', src: 'https://wa.me/message/KXA64KTFUT2OF1' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/slack.svg', src: '#' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/github.svg', src: 'https://github.com/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/patreon.svg', src: 'https://patreon.com/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/facebook.svg', src: 'https://facebook.com/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/instagram.svg', src: 'https://instagram.com/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/twitter.svg', src: 'https://twitter.com/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/linkedin.svg', src: 'https://linkedin.com/company/lazzzyapp' },
+  { logo: 'https://lazzzyapp.github.io/lazzzy-website/static/email.svg', src: 'mailto:be@lazzzy.app' },
 ];

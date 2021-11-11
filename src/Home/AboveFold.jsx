@@ -15,29 +15,28 @@ class AboveFold extends React.PureComponent {
     const { className } = this.props;
     return (
       <div className={`home-layout-wrapper ${className}`}>
-        <div className="home-layout">
-          <QueueAnim component={Col} className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
-            <h1 key="h2">
-              Lazzzy Productivity Suite
-            </h1>
-            <p key="p">Simple online tools to maximize your web browsing efficiency with minimal effort. Install, copy, click. That's all it takes to save content where you want it, how you want it.</p>
-            <p key="p">Yeah, it's that easy.</p>
-            <span key="button">
-              <Button
-                type="primary"
-                onClick={() => {
+        <Col xs={2} md={2} />
+        <QueueAnim component={Col} componentProps={{ xs: { span: 20 }, md: { span: 10 } }} className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
+          <h1 key="h2">
+            Lazzzy Productivity Suites
+          </h1>
+          <p key="p">Simple online tools to maximize your web browsing efficiency with minimal effort. Install, copy, click. That's all it takes to save content where you want it, how you want it.</p>
+          <p key="p">Yeah, it's that easy.</p>
+          <span key="button">
+            <Button
+              type="primary"
+              onClick={() => {
                 window.location.href = '#';
               }}
-              >
-                Be Lazzzy, Test Alpha
-              </Button>
-            </span>
-          </QueueAnim>
-
-          <QueueAnim className={`${className}-image-wrapper`} component={Col}>
-            <AboveFoldImage />
-          </QueueAnim>
-        </div>
+            >
+              Be Lazzzy, Test Alpha
+            </Button>
+          </span>
+        </QueueAnim>
+        <Col xs={2} md={2} />
+        <QueueAnim className={`${className}-image-wrapper`} component={Col}>
+          <AboveFoldImage />
+        </QueueAnim>
       </div>
     );
   }
