@@ -46,4 +46,5 @@
         "titleBar.inactiveForeground": "#15202b99"
     },
     "peacock.color": "#1dfc17",
+    "svg.preview.background": "transparent",
 }
