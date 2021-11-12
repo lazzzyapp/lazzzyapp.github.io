@@ -102,6 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Distribution Files
 dist
+
+# Node Modules
 node_modules
+
+# Mac Specific files
 .DS_Store

@@ -81,7 +81,7 @@ export const team = [
 ];
 
 export const sponsors = [
-  'https://lazzzyapp.github.io/lazzzy-website/static/umich.png',
+  'https://lazzzyapp.github.io/lazzzy-website/static/antdesign.svg',
 ];
 
 export const footer = [
