@@ -5,11 +5,27 @@
     "version": "0.0.1",
     "configurations": [
         {
+            "command": "yarn start",
+            "name": "Yarn",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "Launch Chrome",
+            "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "Yarn -> Chrome",
+            "configurations": [
+                "Yarn",
+                "Launch Chrome"
+            ],
+            "preLaunchTask": "${defaultBuildTask}"
         }
     ]
 }

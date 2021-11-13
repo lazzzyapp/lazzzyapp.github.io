@@ -20,8 +20,8 @@ class AboveFold extends React.PureComponent {
           <h1 key="h2">
             Lazzzy Productivity Suites
           </h1>
-          <p key="p">Simple online tools to maximize your web browsing efficiency with minimal effort. Install, copy, click. That's all it takes to save content where you want it, how you want it.</p>
-          <p key="p">Yeah, it's that easy.</p>
+          <p key="p1">Simple online tools to maximize your web browsing efficiency with minimal effort. Install, copy, click. That's all it takes to save content where you want it, how you want it.</p>
+          <p key="p2">Yeah, it's that easy.</p>
           <span key="button">
             <Button
               type="primary"

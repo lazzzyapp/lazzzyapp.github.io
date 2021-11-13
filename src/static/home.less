@@ -26,7 +26,6 @@
       height: 100%;
       >div {
         float: none;
-        width: 100%;
       }
       .col {
         .content-wrapper {
@@ -76,7 +75,7 @@
     align-items: center;
     display: flex;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.75)), url('https://lazzzyapp.github.io/lazzzy-website/static/header.svg') no-repeat center center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.75)), url('https://lazzzyapp.github.io/lazzzy-website/static/background.svg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -254,7 +253,12 @@
       margin-top: 64px;
     }
     .col {
+      min-width: 50px;
+      min-height: 50px;
       margin-bottom: 32px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
       i {
         display: block;
         width: 170px;
@@ -263,6 +267,28 @@
         background-position: center;
         margin: auto;
       }
+      .sponsorimage {
+        min-height: 50px;
+        min-width: 50px;
+        width: 50px;
+        height: 50px;
+
+        text-align: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid @bgColor;
+        border-radius: 25%;
+
+        transition: transform .45s cubic-bezier(0.5, 0.045, 0.355, 1), box-shadow .45s cubic-bezier(0.645, 0.045, 0.355, 1), border .45s cubic-bezier(0.645, 0.05, 0.5, 1);
+        &:hover {
+          transform: translateY(25%);
+          box-shadow: 0px 10px 10px fade(#000, 100);
+          border-color: #fff;
+          background-color: #fff
+        }
+      }
+
     }
   }
 }

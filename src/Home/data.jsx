@@ -46,7 +46,7 @@ export const team = [
     title: 'Zeid Habbab',
     content: [
       <p key="1">Executive Director</p>,
-      <p key="2">Zeid orignally hails from Georgia, USA but grew up splitting his time between Damascus, Syria and Michigan, USA. The idea for Lazzzy orginated with Zeid, stemming from his own desire for better highlighting/organization tools throughout his variety of acadmic pursuits yet failing to find any practical solutions to the system overload of online academic resources available to him. His favorite hobbies are reading/video games and currently maintains a solid 1.3 KDA on Call of Duty. When asked how does he <i>embrace the lazzzy Zeid</i> he replied, “when I get a food coma in the middle of a meal, I take a nap to finish my food later.” </p>,
+      <p key="2">Zeid originally hails from Georgia, USA but grew up splitting his time between Damascus, Syria and Michigan, USA. The idea for Lazzzy originated with Zeid, stemming from his own desire for better highlighting/organization tools throughout his variety of academic pursuits yet failing to find any practical solutions to the system overload of online academic resources available to him. His favorite hobbies are reading/video games and currently maintains a solid 1.3 KDA on Call of Duty. When asked how does he <i>embrace the lazzzy Zeid</i> he replied, “when I get a food coma in the middle of a meal, I take a nap to finish my food later.” </p>,
     ],
     person: 'https://lazzzyapp.github.io/lazzzy-website/static/zeid.png',
   },
@@ -54,7 +54,7 @@ export const team = [
     title: 'Ari Brown',
     content: [
       <p key="1">Operations Director</p>,
-      <p key="2">Ari orignally hails from New Jersey, USA but grew up so close to NYC that you are able to see the city skyline from his childhood home. Ari is a sports buff and proudly admits to the misery that comes with being a New York Mets fan. He is an ultimate frisbee aficionado and currently plays for the UMich club team. His favorite hobby is cooking and currently lives with four others who cannot, so he gets to experiment with new recipes. Food is what led Ari to his last position at an Italian food manufacturer/distributor, Mama Mancini’s, where he was able to work and learn directly from their COO in logistics and inventory management. When asked how does he <i>embrace the lazzzy Ari</i> he replied, “I embrace the lazy me by knowing how much to do in as little time as possible.”</p>,
+      <p key="2">Ari originally hails from New Jersey, USA but grew up so close to NYC that you are able to see the city skyline from his childhood home. Ari is a sports buff and proudly admits to the misery that comes with being a New York Mets fan. He is an ultimate frisbee aficionado and currently plays for the UMich club team. His favorite hobby is cooking and currently lives with four others who cannot, so he gets to experiment with new recipes. Food is what led Ari to his last position at an Italian food manufacturer & distributor, Mama Mancini’s, where he was able to work and learn directly from their COO in logistics and inventory management. When asked how does he <i>embrace the lazzzy Ari</i> he replied, “I embrace the lazy me by knowing how much to do in as little time as possible.”</p>,
     ],
     person: 'https://lazzzyapp.github.io/lazzzy-website/static/ari.png',
 
@@ -72,7 +72,7 @@ export const team = [
     title: 'Brandon JP Scott',
     content: [
       <p key="1">Technology Director</p>,
-      <p key="2">Brandon originally hails from Michigan, USA and grew up across the USA as the son of two Army veterans. Prior to pursuing an academic career, Brandon worked in Aguada, Puerto Rico as the first hire and Senior VP of Technology at Island Med building a HIPAA complient video platform. He has been an entreprenuer for ten years, having started his first as a high schooler in 2011. His favorite hobby is Magic: the Gathering and use to travel competing at professional level events but nowadays prefers causal play and teaching people the game. When asked how does he <i>embrace the lazzzy Brandon</i> he said, “I write more code to automated my daily workflow than I do actual projects, just so I can avoid extra key strokes.”</p>,
+      <p key="2">Brandon originally hails from Michigan, USA and grew up across the USA as the son of two Army veterans. Prior to pursuing an academic career, Brandon worked in Aguada, Puerto Rico as the first hire and Senior VP of Technology at Island Med building a HIPAA compliant video platform. He has been an entrepreneur for ten years, having started his first as a high schooler in 2011. His favorite hobby is Magic: the Gathering and use to travel competing at professional level events but nowadays prefers causal play and teaching people the game. When asked how does he <i>embrace the lazzzy Brandon</i> he said, “I write more code to automated my daily workflow than I do actual projects, just so I can avoid extra key strokes.”</p>,
     ],
     person: 'https://lazzzyapp.github.io/lazzzy-website/static/brandon.png',
   },
@@ -81,7 +81,15 @@ export const team = [
 ];
 
 export const sponsors = [
-  'https://lazzzyapp.github.io/lazzzy-website/static/antdesign.svg',
+  {
+    logo: 'https://lazzzyapp.github.io/lazzzy-website/static/antdesign.svg',
+    src: 'https://ant.design',
+  },
+  /* {
+    logo: 'https://lazzzyapp.github.io/lazzzy-website/static/umich.svg',
+    src: 'https://umich.edu',
+  },
+  */
 ];
 
 export const footer = [

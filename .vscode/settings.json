@@ -5,17 +5,27 @@
     // TODO: Force Workspace Typescript Version
 
     "cSpell.words": [
+        "abovefold",
+        "Aguada",
         "antd",
+        "antdesign",
+        "Ari",
         "atool",
+        "Habbab",
+        "Julius",
+        "Kathrein",
+        "Krones",
+        "Lazzzy",
+        "Mets",
         "qrcode",
         "redbox",
-        "Lazzzy",
+        "schooler",
+        "sponsorimage",
+        "spsonsorimage",
+        "Welschof",
         "xcesiv",
-        "Zeid",
-        "Habbab",
-        "Ari",
-        "Julius",
-        "Welschof"
+        "yoyo",
+        "Zeid"
     ],
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#4efd49",

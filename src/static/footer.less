@@ -17,9 +17,8 @@
     margin: 48px 0 16px;
     > div {
       display: inline-block;
-      padding: 0 10px;
-      height: 15px;
-      width: 15px;
+      padding: 2.5% !important;
+      border-radius: 100%;
       &:last-child {
         border-right: none;
       }
@@ -27,17 +26,22 @@
       a {
         display: block;
         color: fade(#fff, 65);
-        font-size: 16px;
-        line-height: 16px;
+
       }
         .image {
-    width: 15px;
-    height: 15px;
-              background-size: contain;
-              background-repeat: no-repeat;
-              padding: auto 5px;
+          width: 20px;
+          height: 20px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          border: 1px solid #404040;
 
-  }
+          &:hover {
+            transform: translateY(25%);
+            box-shadow: 0px 10px 10px fade(#000, 100);
+            border-color: #4e4e4e;
+            background-color:#404040;
+          }
+        }
     }
   }
   .logo{ margin-bottom: 5px; }
