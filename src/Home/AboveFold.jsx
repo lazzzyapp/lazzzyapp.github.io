@@ -7,7 +7,7 @@ export default function AboveFold() {
   return (
     <Row className="home-abovefold" responsive>
       <QueueAnim component={Col} componentProps={{ xs: { order: 2, span: 24 }, md: { order: 1, span: 12} }} className="home-abovefold-content-wrapper" delay={300} ease="easeOutQuart">
-        <Card>
+        <Card className="card-fold">
         <h1 key="h2">
           Lazzzy Productivity Suites
         </h1>
@@ -25,7 +25,9 @@ export default function AboveFold() {
         </Card>
       </QueueAnim>
       <QueueAnim className="home-abovefold-image-wrapper" component={Col} componentProps={{ xs: { order: 1, span: 24 }, md: { order: 2, span: 10 } }}>
+        <Card className="card-fold">
         <AboveFoldImage />
+        </Card>
       </QueueAnim>
     </Row>
   );
