@@ -69,13 +69,12 @@
     margin: 1% auto 2.5%;
   }
   .home-abovefold {
-    min-height: 100vh;
-    max-height: 100vh !important;
-    height: 100vh !important;
+    justify-content: center;
     align-items: center;
-    display: flex;
+    min-height: 100vh;
+    display: inline-flex;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.75)), url('https://lazzzyapp.github.io/lazzzy-website/static/background.svg') no-repeat center center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255,255, 255,0.75)), url('https://lazzzyapp.github.io/lazzzy-website/static/background.svg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,26 +86,20 @@
     }
     .home-abovefold-content-wrapper,
     .home-abovefold-image-wrapper {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      position: relative;
-      top: 0;
+
     }
     .home-abovefold-content-wrapper {
       text-align: left;
     }
     h1 {
-      font-size: 38px;
-      line-height: 46px;
-      margin-bottom: 16px;
+      font-size: 3em;
+      line-height: 1em;
       font-weight: normal;
       color: @titleColor;
     }
     p {
-      margin-bottom: 40px;
-      font-size: 1.1em;
-      line-height: 1.2em;
+      font-size: 1.25em;
+      line-height: 1.25em;
       color: @contentColor;
     }
     span {
@@ -120,7 +113,6 @@
       text-align: center;
     }
   }
-
   .home-about-wrapper {
     height: 100%;
     min-height: 100vh;
@@ -133,9 +125,7 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
-    .ant-col-xs-24 {
-      padding: 10%;
-    }
+
     .col {
       height: auto;
     }
@@ -268,18 +258,14 @@
         margin: auto;
       }
       .sponsorimage {
-        min-height: 50px;
-        min-width: 50px;
-        width: 50px;
-        height: 50px;
-
+        min-height: 150px;
+        min-width: 150px;
         text-align: center;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         border: 1px solid @bgColor;
         border-radius: 25%;
-
         transition: transform .45s cubic-bezier(0.5, 0.045, 0.355, 1), box-shadow .45s cubic-bezier(0.645, 0.045, 0.355, 1), border .45s cubic-bezier(0.645, 0.05, 0.5, 1);
         &:hover {
           transform: translateY(25%);
@@ -288,7 +274,15 @@
           background-color: #fff
         }
       }
-
     }
+  }
+}
+.ant-row::before, .ant-row::after{
+  display:none;
+  content: none;
+}
+@media only screen and (max-width: 768px) and (min-width: 1px){
+  .home-abovefold {
+    display: inline-grid;
   }
 }
