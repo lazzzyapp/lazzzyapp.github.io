@@ -6,7 +6,7 @@ TweenOne.plugins.push(SvgDrawPlugin);
 
 export default function LazzzyAnimation() {
   return (
-    <svg width="510px" height="460px" viewBox="0 0 510 460">
+    <svg width="100%" viewBox="0 0 510 460">
       <defs>
         <linearGradient x1="22.5255245%" y1="93.2958148%" x2="80.4524476%" y2="10.3638558%" id="linearGradient-1">
           <stop stopColor="#FFBF00" offset="0%" />

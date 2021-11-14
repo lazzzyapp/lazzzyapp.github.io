@@ -22,7 +22,7 @@ export default function Sponsors() {
       key={i}
       type="bottom"
       className="col"
-      componentProps={{ xs: { span: 1 }, sm: { span: 1, offset: 1 } }}
+      componentProps={{ xs: { span: 1 }, sm: { span: 1 } }}
       onClick={() => { window.open(`${d.src}`, '_blank'); }}
     >
       <a key="image" className="sponsorimage" style={{ backgroundImage: `url(${d.logo})` }} />

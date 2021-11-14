@@ -23,7 +23,6 @@ class Home extends React.PureComponent {
         </div>
         <Footer key="footer" />
       </div>
-
     );
   }
 }
