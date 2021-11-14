@@ -1,12 +1,13 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
-import { Button, Col, Row } from 'antd';
+import { Button, Col, Row, Card } from 'antd';
 import AboveFoldImage from './LazzzyAnimation';
 
 export default function AboveFold() {
   return (
-    <Row className="home-abovefold" fluid>
-      <QueueAnim component={Col} componentProps={{ xs: { order: 2, span: 24 }, md: { order: 1, span: 10 } }} className="home-abovefold-content-wrapper" delay={300} ease="easeOutQuart">
+    <Row className="home-abovefold" responsive>
+      <QueueAnim component={Col} componentProps={{ xs: { order: 2, span: 24 }, md: { order: 1, span: 12} }} className="home-abovefold-content-wrapper" delay={300} ease="easeOutQuart">
+        <Card>
         <h1 key="h2">
           Lazzzy Productivity Suites
         </h1>
@@ -21,6 +22,7 @@ export default function AboveFold() {
         >
           Be Lazzzy, Test Alpha
         </Button>
+        </Card>
       </QueueAnim>
       <QueueAnim className="home-abovefold-image-wrapper" component={Col} componentProps={{ xs: { order: 1, span: 24 }, md: { order: 2, span: 10 } }}>
         <AboveFoldImage />
