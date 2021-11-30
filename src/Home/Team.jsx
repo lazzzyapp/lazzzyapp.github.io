@@ -10,7 +10,6 @@ export default function Team() {
       <QueueAnim
         type="bottom"
         className="content-wrapper home-hover"
-        onClick={() => { window.location.href = '#'; }}
       >
         <div key="image" className="image" style={{ backgroundImage: `url(${d.person})` }} />
         <h3 key="h3">{d.title}</h3>

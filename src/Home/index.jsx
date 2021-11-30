@@ -18,6 +18,7 @@ class Home extends React.PureComponent {
           <Banner key="abovefold" />
           <About key="about" />
           <Team key="team" />
+          {/* <Sponsors key="sponsors" /> */ }
           <DocumentTitle title="Lazzzy App - Embrace the Lazzzy You" />
         </div>
         <Footer key="footer" />

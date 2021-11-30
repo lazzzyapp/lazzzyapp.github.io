@@ -25,7 +25,7 @@ export default function Sponsors() {
       componentProps={{ xs: { span: 1 }, sm: { span: 1 } }}
       onClick={() => { window.open(`${d.src}`, '_blank'); }}
     >
-      <a key="image" className="sponsorimage" style={{ backgroundImage: `url(${d.logo})` }} />
+      <a key="image" className="image" style={{ backgroundImage: `url(${d.logo})` }} />
     </QueueAnim>
   ));
   return (

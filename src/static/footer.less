@@ -28,20 +28,21 @@
         color: fade(#fff, 65);
 
       }
-        .image {
-          width: 20px;
-          height: 20px;
+      .social-wrapper{
+        border-radius: 100%;
+        width: 1px;
+        height: 1px;
+        &:hover {
+          transform: translateY(-3px);
+          box-shadow: 10px 15px 20px 10px fade(#1a1919 , 100);
+        }
+      .image {
           background-size: contain;
           background-repeat: no-repeat;
-          border: 1px solid #404040;
-
-          &:hover {
-            transform: translateY(25px);
-            box-shadow: 0px 10px 10px fade(#000, 100);
-            border-color: #4e4e4e;
-            background-color:#404040;
-          }
+          width: 20px;
+          height: 20px;
         }
+      }
     }
   }
   .logo{ margin-bottom: 5px; }
