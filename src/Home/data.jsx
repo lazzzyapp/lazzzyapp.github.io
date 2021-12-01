@@ -46,7 +46,7 @@ export const team = [
     title: 'Zeid Habbab',
     content: [
       <p key="1">Executive Director</p>,
-      <p key="2">Zeid originally hails from Georgia, USA but grew up splitting his time between Damascus, Syria and Michigan, USA. The idea for Lazzzy originated with Zeid, stemming from his own desire for better highlighting/organization tools throughout his variety of academic pursuits yet failing to find any practical solutions to the system overload of online academic resources available to him. His favorite hobbies are reading/video games and currently maintains a solid 1.3 KDA on Call of Duty. When asked how does he <i>embrace the lazzzy Zeid</i> he replied, “when I get a food coma in the middle of a meal, I take a nap to finish my food later.” </p>,
+      <p key="2">Zeid originally hails from Georgia, USA but grew up splitting his time between Damascus, Syria and Michigan, USA. The idea for Lazzzy originated with Zeid, stemming from his own desire for better note-taking tools to decode an dorganize the overload of online academic resources. His favorite hobbies are reading and video games where he currently maintains a solid 1.3 KDA on Call of Duty. When asked how does he <i>embrace the lazzzy Zeid</i> he replied, “when I get a food coma in the middle of a meal, I take a nap to finish my food later.” </p>,
     ],
     person: 'https://lazzzy.app/static/zeid.png',
   },
