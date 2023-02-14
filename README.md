@@ -6,11 +6,11 @@ Homepage for the Lazzzy Apps productivity tool suite.
 
 ### Stable Version
 
-Open your preferred web browser and visit [lazzzy.app](https://lazzzy.app) to checkout the latest stable release version.
+Open your preferred web browser and visit [lazzzy.app](https://lazzzyapp.github.io) to checkout the latest stable release version.
 
 ### Nightly Version
 
-We build and deploy the website's code nightly. You can check out the latest nightly build by visiting [lazzzyapp.github.io](https://lazzzy.app/)
+We build and deploy the website's code nightly. You can check out the latest nightly build by visiting [lazzzyapp.github.io](https://lazzzyapp.github.io/)
 
 ## Build It Locally
 

@@ -13,7 +13,7 @@ function antCloudFooter() {
   ));
   return (<div>
     <div className="logo" key="logo">
-      <img className="" src="https://lazzzy.app/static/logo.png" width="175" height="75" />
+      <img className="" src="https://lazzzyapp.github.io/static/logo.png" width="175" height="75" />
     </div>
     <div key="nav" className="home-footer-nav-wrapper">
       {children}
